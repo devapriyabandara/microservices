@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="501615d0-ac19-4dc2-8eb7-23806edf5b6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/models/CatalogItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/resources/MovieCatalogResource.java" afterDir="false" />
+    <list default="true" id="501615d0-ac19-4dc2-8eb7-23806edf5b6f" name="Default Changelist" comment="Adding movie catalog resources and catalog items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/resources/MovieCatalogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/resources/MovieCatalogResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/movie-catalog-service/target/" />
     <ignored path="$PROJECT_DIR$/movie-info-service/target/" />
@@ -44,13 +43,13 @@
         <counts>
           <entry key="java" value="283" />
           <entry key="properties" value="21" />
-          <entry key="txt" value="51" />
+          <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="283" />
-          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="PLAIN_TEXT" value="106" />
           <entry key="Properties" value="21" />
         </counts>
       </usages-collector>
@@ -58,7 +57,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/MovieCatalogServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -70,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/movie-catalog-service/src/main/java/resources/MovieCatalogResource.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/resources/MovieCatalogResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,6 +133,7 @@
         <option value="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/models/CatalogItems.java" />
         <option value="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/movie-catalog-service/src/main/java/resources/MovieCatalogResource.java" />
+        <option value="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/resources/MovieCatalogResource.java" />
       </list>
     </option>
   </component>
@@ -188,6 +188,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="moviecatalogservice" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movie-catalog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="moviecatalogservice" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557467571559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557467819117" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-info-service" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -215,6 +225,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.microservicestest.moviecatalogservice" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.microservicestest.moviecatalogservice.models" />
     </key>
@@ -329,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557123693522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding movie catalog resources and catalog items">
+      <created>1557467627279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557467627280</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -339,9 +359,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6635514" visible="true" weight="0.25266525" />
-      <window_info id="Structure" order="1" sideWeight="0.3364486" side_tool="true" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6629393" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" sideWeight="0.3370607" side_tool="true" visible="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -349,14 +370,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42719486" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42719486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2869379" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32976446" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32976446" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,7 +420,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes related to application server port" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes related to application server port" />
+    <MESSAGE value="Adding movie catalog resources and catalog items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding movie catalog resources and catalog items" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -465,20 +487,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/MovieCatalogServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/resources/MovieCatalogResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie-catalog-service/src/main/java/resources/MovieCatalogResource.java">
+    <entry file="file://$PROJECT_DIR$/movie-catalog-service/src/main/java/com/microservicestest/moviecatalogservice/MovieCatalogServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
